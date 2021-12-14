@@ -14,7 +14,14 @@ yarn install
 yarn dev
 ```
 
-- .envを任意の値に修正
+- .env.exampleを参考に.envを任意の値にして作成
+  - NEXT_PUBLIC_MVT_URLには背景として読み込む町丁目ポリゴンのベクタータイルを想定
+  - NEXT_PUBLIC_TOWN_FGB_URLには地物クリック時に表示される住所と系番号をもつfgbを想定
+
+```text
+NEXT_PUBLIC_MVT_URL=https://hogehoge/{z}/{x}/{y}.pbf
+NEXT_PUBLIC_TOWN_FGB_URL=https://fugafuga.fgb
+```
 
 ## デプロイ
 
