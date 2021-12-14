@@ -20,7 +20,7 @@ yarn dev
 
 ```text
 NEXT_PUBLIC_MVT_URL=https://hogehoge/{z}/{x}/{y}.pbf
-NEXT_PUBLIC_TOWN_FGB_URL=https://fugafuga.fgb
+NEXT_PUBLIC_TOWN_FGB_URL=https:///fugafuga/fugafuga.fgb
 ```
 
 ## デプロイ
